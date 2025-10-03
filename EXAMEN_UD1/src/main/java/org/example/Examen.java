@@ -19,7 +19,7 @@ public class Examen {
             }
         } while (bucle);
         if (num < 0) {
-            num = num* (-1);
+            num = num * (-1);
         }
         System.out.println("El valor absoluto es " + num);
 
@@ -59,8 +59,8 @@ public class Examen {
 
     public static void main(String[] args) {
         Examen ex = new Examen();
-        //ex.ejercicio1();
-        ex.ejercicio2();
+        ex.ejercicio1();
+        //ex.ejercicio2();
     }
 }
 
